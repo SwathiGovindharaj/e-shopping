@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Fashion",
+      "imgUrl": "/images/fashion.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Electronics",
+      "imgUrl": "/images/electronics.png"
+    },
+    {
+      "id": 3,
+      "title": "Essentials",
+      "imgUrl": "/images/essentials.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "hi",
+      "description": "description",
+      "imgUrl": "/images/fashion.jpg",
+      "price": "100",
+      "availability": "Available",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "hello",
+      "description": "description",
+      "imgUrl": "/images/fashion.jpg",
+      "price": "200",
+      "availability": "Out of Stock",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "hello",
+      "description": "description",
+      "imgUrl": "/images/fashion.jpg",
+      "price": "200",
+      "availability": "Out of Stock",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "hello",
+      "description": "description",
+      "imgUrl": "/images/fashion.jpg",
+      "price": "200",
+      "availability": "Out of Stock",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "hello",
+      "description": "description",
+      "imgUrl": "/images/fashion.jpg",
+      "price": "200",
+      "availability": "Out of Stock",
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "name": "hello",
+      "description": "description",
+      "imgUrl": "/images/fashion.jpg",
+      "price": "200",
+      "availability": "Out of Stock",
+      "categoryId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Swathi",
+      "email": "swathiraj71098@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Surya",
+      "email": "surya@gmail.com"
+    }
+  ],
+  "wishlists": [
+    {
+      "id": "1",
+      "userId": "1",
+      "productId": "2"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "productId": "1"
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "userId": "1",
+      "productId": "1",
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "1",
+      "productId": ""
+    }
+  ]
+}
